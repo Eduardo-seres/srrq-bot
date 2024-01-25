@@ -86,13 +86,14 @@ def noid(link, time_schedule):
                 magic.press('enter')
                 magic.hotkey('alt', 'v')
                 magic.hotkey('alt', 'h')
-                for _ in range(150):
+                for _ in range(750):
                     magic.hotkey('ctrl', 'v')
-                    #felicit = " :smile: " + " ¡APROVECHA LA OPORTUNIDAD! :smile: " + "https://seresderiqueza.mx/01_Riqueza_infinita_sl"
+                    #📌¡APROVECHA LA OPORTUNIDAD! 📌 https://seresderiqueza.mx/01_Riqueza_infinita_sl
+                    #felicit = " :smile: " + " ¡APROVECHA LA OPORTUNIDAD! " + "https://seresderiqueza.mx/01_Riqueza_infinita_sl"
                     # felicit = emoji.emojize('Python es :pulgar_hacia_arriba:', language='es')
                     #magic.write(felicit)
                     magic.press('enter')
-                    time.sleep(1)
+                    time.sleep(7)
                 
                 magic.hotkey('alt', 'q')  # cerramos pal siguiente bot
             isStarted = True
